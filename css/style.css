@@ -7,6 +7,10 @@ a {
   text-decoration: none;
   color: white;
 }
+.float {
+  float: left;
+  text-align: center;
+}
 body {
   background-color: white;
   font-family: 'Roboto', sans-serif;
@@ -98,9 +102,60 @@ a.btn-green {
 a.cta {
   padding: 20px 15px;
 }
+
+/* FINE HEADER */
+
 main {
-  background-color: green;
+}
+.title {
+  text-align: center;
+  padding: 50px 0;
+  background-color: rgb(220, 220, 220);
+}
+.col-container {
+width: 1050px;
+margin: 50px auto 80px;
+text-align: center;
+}
+.col-container img {
+  height: 140px;
+  margin-bottom: 60px;
+}
+.col-container::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.float h3 {
+  font-size: 23px;
+  color: #7fb802;
+  font-weight: normal;
+}
+.float hr {
+  width: 30px;
+  margin: 20px auto;
+}
+.float p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #999;
+}
+.col1 {
+  width: 300px;
+}
+.col2 {
+  width: 350px;
+  margin: 0 50px;
+}
+.col3 {
+  width: 300px;
+
+}
+.main-bot {
+  height: 400px;
 }
 footer {
+  width: 1050px;
+  margin: 0 auto;
   background-color: #d3d3d3;
 }
